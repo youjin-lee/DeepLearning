@@ -26,6 +26,11 @@ The study of linear algebra involves several types of mathematical objects:
 
 - Scalars
 
+   A scalar is just a single number. We write scalars in italics(lowercase variable names).
+
+  ![2_1](https://user-images.githubusercontent.com/27392019/73827577-250f7480-4843-11ea-9469-4c2db13d66bc.png)
+  ![2_2](https://user-images.githubusercontent.com/27392019/73827581-280a6500-4843-11ea-9ad0-57296a96db44.png)
+
 - Vectors
 
 - Matrices
