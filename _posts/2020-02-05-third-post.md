@@ -48,6 +48,11 @@ The study of linear algebra involves several types of mathematical objects:
 
 - Matrices
 
+  a 2-D array of numbers.
+  
+  A i,: | denotes the horizontal cross section of A with vertical coordinate i. the i-th row of A.
+  A :,i | i-th column of A
+
 - Tensor
 
 
