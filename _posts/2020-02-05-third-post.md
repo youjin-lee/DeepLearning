@@ -6,16 +6,20 @@ categories: deeplearning IanGoodfellow
 
 <Abstract>
   
-  Linear algebra is a branch of mathematics that is widely used thorughout science and engieering.
-  Yet Because linear algebra is a form of contuinous rather than discrete mathematics, many computer scientists have liter experience with it.
-  A good understanding of linear algebra is essential for understading and working with many machine learning algorithms, especially deep learning algorithms.
-  We therefore precede our introduction to deep learning with a focused presentation of the key linear algegra prerequisites.
+  선형대수(Linear algebra)는 과학, 공학에서 널리 쓰이는 수학의 한가지이다.
   
-  recommend **Matrix Cookbook**(Petersen and Pedersen,2006).
+  그러나 선형대수는 이산형(Discrete)보다는 연속형(Continous) 수학이기에 많은 데이터 사이언티스트들은 이에 대한 경험이 부족하다.
   
-  this chapter completely omits many important linear algebra topics that are not essential for understading deep learning
+  "Good Understanding of Linear Algebra is essential for understading and working with many machine learning algorithms, especially deep learning algorithms."
+  
+  그러므로 뒤의 내용을 학습하기 위해 전제조건이 되어야할 선형대수의 주요 포인트에 먼저 설명하겠다.
+  
+  선형대수에 대해 사전지식이 있을 경우 가볍게 넘겨도 되며, 딥러닝에 필요한 부분들만 다뤘기 때문에 추가로 공부하는 것도 추천한다.
+  
+  추천서적 : Matrix Cookbook(Petersen and Pedersen,2006)
   
 ----------------
+
 ### 2.1 Scalars, Vectors, Matrices and Tensors
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
