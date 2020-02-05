@@ -4,7 +4,7 @@ date: 2020-02-05 17:25:28 -0400
 categories: deeplearning IanGoodfellow
 ---
 
-[Abstract]
+## Abstract
 
 선형대수(Linear algebra)는 과학, 공학에서 널리 쓰이는 수학의 한가지이다.
 
@@ -26,12 +26,23 @@ The study of linear algebra involves several types of mathematical objects:
 
 - Scalars
 
-   A scalar is just a single number. We write scalars in italics(lowercase variable names).
+   just a single number.
 
   ![2_1](https://user-images.githubusercontent.com/27392019/73827577-250f7480-4843-11ea-9469-4c2db13d66bc.png)
   ![2_2](https://user-images.githubusercontent.com/27392019/73827581-280a6500-4843-11ea-9ad0-57296a96db44.png)
 
 - Vectors
+
+  an array of numbers(arranged in order).
+  
+  ![2_3](https://user-images.githubusercontent.com/27392019/73829469-5473b080-4846-11ea-8a91-72eac2f89552.png)
+  
+  We can think of vectors as identifying points in space, with each element giving the coordinate along a different axis.
+  
+  - 원소 접근 방법
+  
+    ![2_4](https://user-images.githubusercontent.com/27392019/73829548-7ff69b00-4846-11ea-8bc8-9b196e3f668e.png)
+  
 
 - Matrices
 
