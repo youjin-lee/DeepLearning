@@ -33,11 +33,13 @@ The study of linear algebra involves several types of mathematical objects:
 
 - Vectors
 
-  an array of numbers(arranged in order).
+  an array of numbers(arranged in order). identify each individual number by its index in that ordering.
   
   ![2_3](https://user-images.githubusercontent.com/27392019/73829469-5473b080-4846-11ea-8a91-72eac2f89552.png)
   
   We can think of vectors as identifying points in space, with each element giving the coordinate along a different axis.
+  
+  ![2_5](https://user-images.githubusercontent.com/27392019/73830627-4faffc00-4848-11ea-9434-937b9eae4807.png)
   
   - 원소 접근 방법
   
