@@ -1,5 +1,5 @@
 ---
-title: "ch2.Linear Algebra"
+title: "ch2.Linear Algebra (modifying)"
 date: 2020-02-05 17:25:28 -0400
 categories: deeplearning IanGoodfellow
 ---
@@ -106,14 +106,3 @@ The study of linear algebra involves several types of mathematical objects:
 In the context of deep learning, we also use some less conventional notation. the vector b is added to each row of the matrix. a matrix with b copied into each row before doing the addition.
 
 ![2_13](https://user-images.githubusercontent.com/27392019/73901882-681b2780-48d7-11ea-8517-7c1282f01af3.png)
-    
-    
-    
-    
-  
-
-​```python
-def print_hi(name):
-  print("hello", name)
-print_hi('Tom')
-​```
