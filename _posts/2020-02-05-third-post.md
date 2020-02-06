@@ -50,11 +50,67 @@ The study of linear algebra involves several types of mathematical objects:
 
   a 2-D array of numbers.
   
-  A i,: | denotes the horizontal cross section of A with vertical coordinate i. the i-th row of A.
-  A :,i | i-th column of A
+  We can identify all the numbers with vertical coordinate i by writing a “:” for the horizontal coordinate.
+  
+  ![2_6](https://user-images.githubusercontent.com/27392019/73901863-576ab180-48d7-11ea-9b65-6c8243a30043.png)
+  
+  ![2_7](https://user-images.githubusercontent.com/27392019/73901864-589bde80-48d7-11ea-8aaa-28012957f540.png)
+  
 
 - Tensor
 
+  an array with more than two axes.
+  
+  We identify the element of A at coordinates (i, j, k) by writing Ai,j,k
+  
+-----------------------------
+
+- Transpose
+
+  matrix across a diagonal line(called themaindiagonal).
+  
+  ![2_8](https://user-images.githubusercontent.com/27392019/73901868-59cd0b80-48d7-11ea-9339-52161abd969a.png)
+  
+  - Vectors
+  
+    Vectors can be thought of as matrices that contain only one column.
+    Transpose of a vector is therefore a matrix with only one row.
+    using the transpose operator to turn it into a standard column vector.
+    
+    ![2_9](https://user-images.githubusercontent.com/27392019/73901872-605b8300-48d7-11ea-8ba6-8a6fa49369a2.png)
+  
+  - Scalar
+  
+    A scalar can be thought of as a matrix with only a single entry. A scalar is its own transpose.
+    
+    ![2_10](https://user-images.githubusercontent.com/27392019/73901874-62254680-48d7-11ea-8414-944ed182c493.png)
+    
+    
+-----------------------------------------------
+
+- 행렬 덧셈
+
+  add matrices to each other, as long as the same shape
+  
+  ![2_11](https://user-images.githubusercontent.com/27392019/73901877-63567380-48d7-11ea-9e46-edde750724c7.png)
+  
+  
+- Scalar배, 덧셈
+
+  add a scalar to a matrix or multiply a matrix by a scalar
+  
+  ![2_12](https://user-images.githubusercontent.com/27392019/73901879-65b8cd80-48d7-11ea-8f1e-2652b20c92c9.png)
+  
+### Broadcasting
+
+In the context of deep learning, we also use some less conventional notation. the vector b is added to each row of the matrix. a matrix with b copied into each row before doing the addition.
+
+![2_13](https://user-images.githubusercontent.com/27392019/73901882-681b2780-48d7-11ea-8517-7c1282f01af3.png)
+    
+    
+    
+    
+  
 
 ​```python
 def print_hi(name):
